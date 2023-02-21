@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_1/container_widget.dart';
-import 'column.dart';
+import 'package:latihan_1/hallo_widget.dart';
 import 'row_widget.dart';
 
 void main() {
@@ -18,18 +18,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           appBar: AppBar(
             centerTitle: true,
-            title: const Text("Latihan"),
+            title: const Text("Home"),
             backgroundColor: Colors.amber[400],
           ),
           body: Column(
             children: [
+              Padding(padding: EdgeInsets.only(top: 15)),
+              HalloWidget(),
+              Padding(padding: EdgeInsets.only(top: 15)),
               RowWidget(),
               Padding(
-                padding: EdgeInsets.only(top: 30),
+                padding: EdgeInsets.only(top: 15),
               ),
-              ColumnWidget(),
               Padding(
-                padding: EdgeInsets.only(top: 20),
+                padding: EdgeInsets.only(top: 15),
               ),
               ContainerWidget()
             ],

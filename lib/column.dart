@@ -4,7 +4,7 @@ class ColumnWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text('Bomba padamkan api jeu?'),
         Text('Tugas bomba lebih dari pada itu'),

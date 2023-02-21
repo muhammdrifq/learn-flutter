@@ -9,21 +9,23 @@ class RowWidget extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Container(
-          color: Colors.amber[200],
+          decoration: BoxDecoration(
+              color: Colors.amber[700],
+              borderRadius: BorderRadius.circular(20)),
+          width: 100,
+          height: 100,
           child: FlutterLogo(
-            size: 48,
+            size: 30,
           ),
         ),
         Container(
-          color: Colors.amber[500],
+          decoration: BoxDecoration(
+              color: Colors.amber[700],
+              borderRadius: BorderRadius.circular(20)),
+          width: 100,
+          height: 100,
           child: FlutterLogo(
-            size: 48,
-          ),
-        ),
-        Container(
-          color: Colors.amber[800],
-          child: FlutterLogo(
-            size: 48,
+            size: 50,
           ),
         ),
       ],
